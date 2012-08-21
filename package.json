@@ -2,9 +2,11 @@
   "name": "APP_NAME",
   "version": "0.0.1",
   "dependencies": {
-    "connect": "2.4"
+    "connect": "2.4",
+    "supervisor": "0.4",
+    "coffee-script": "1.1"
   },
   "scripts": {
-    "start": "node server.coffee"
+    "start": "supervisor server.coffee"
   }
 }
